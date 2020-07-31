@@ -20,6 +20,7 @@ public class Repetition {
 				}
 			}
 			if(check == 1) {
+				i--;
 				continue;
 			}
 		}

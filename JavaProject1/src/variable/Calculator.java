@@ -11,7 +11,7 @@ public class Calculator {
 		System.out.println("num1 : ");
 		int num1 = sc.nextInt();
 		System.out.println("+_*/ : ");
-		String s =sc.next();
+		String s = sc.next();
 		System.out.println("num2 : ");
 		int num2 = sc.nextInt();
 		
