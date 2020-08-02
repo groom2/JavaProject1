@@ -9,7 +9,7 @@ public class NumBaseballFuc {
 		int a[], count = 1;
 		a = make();
 		boolean more = true;
-		while(more == true) {
+		while(more) {
 			int ans = putans(count);
 			more = checkans(ans, a);
 			count++;
@@ -36,6 +36,7 @@ public class NumBaseballFuc {
 		for(int k = 0; k < a.length; k++) {
 			System.out.print(a[k] + " ");
 		}
+		System.out.println();
 		return a;
 	}
 	
