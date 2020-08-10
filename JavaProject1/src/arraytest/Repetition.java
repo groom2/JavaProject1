@@ -8,20 +8,15 @@ public class Repetition {
 		a[0] = (int)(Math.random() * 10) + 1;
 		
 		for(int i = 0; i < a.length; i++) {
-			int check = 0;
 			int num = (int)(Math.random() * 10) + 1;
 			
 			for(int j = 0; j < i; j++) {
 				if(a[j] == num) {
-					check = 1;
+					i--;
 				}
 				else {
 					a[i] = num;
 				}
-			}
-			if(check == 1) {
-				i--;
-				continue;
 			}
 		}
 		
